@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background: #eef2f6;
+  color: #202c3b;
+  font: 1rem/1.5 system-ui, sans-serif;
+}
+
+.report {
+  max-width: 48rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.summary-card,
+.result-item {
+  margin: 0 0 0.5rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid #cbd6e2;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+.summary-card {
+  border-left: 0.25rem solid #35668a;
+}
+
+.result-list {
+  padding: 0;
+  list-style: none;
+}
+
+.result-name {
+  display: block;
+  font-weight: 700;
+}
+
+.results {
+  margin-top: 2rem;
+}
+
+select,
+button {
+  padding: 0.35rem 0.5rem;
+  font: inherit;
+}
